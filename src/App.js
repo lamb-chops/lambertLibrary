@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarComponent from "./components/NavbarComponent";
+import Footer from "./components/Footer.js";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <NavbarComponent />
       App Component
+      <Footer />
     </div>
   );
 }
