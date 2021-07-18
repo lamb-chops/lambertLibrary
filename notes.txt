@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/66747583/whats-the-purpose-of-div-classname-app-in-a-react-class-render-function
+https://dev.to/gedalyakrycer/ohsnap-this-how-to-pin-footers-in-react-3k1k
+https://reactgo.com/react-sticky-footer/
