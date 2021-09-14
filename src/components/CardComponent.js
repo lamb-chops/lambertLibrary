@@ -5,7 +5,7 @@ const CardComponent = () => {
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src="" alt="img goes here" />
       <Card.Body>
-        <Card.Title>Book Title</Card.Title>
+        <Card.Title>Book Title Test</Card.Title>
         <Card.Text>Book description will go in card text</Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
