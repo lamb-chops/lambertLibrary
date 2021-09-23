@@ -2,6 +2,7 @@ import { Card, Button, ListGroupItem, ListGroup } from "react-bootstrap";
 
 const CardComponent = ({ title, description, author, book_image }) => {
   return (
+    <div>
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={book_image} alt="img goes here" />
       <Card.Body>
@@ -13,10 +14,9 @@ const CardComponent = ({ title, description, author, book_image }) => {
       </ListGroup>
       <Card.Body>
         <Card.Link href="#">Link to similar suggestions</Card.Link>
-        <br></br>
-        <Card.Link href="#">Or a button with more deets instead?</Card.Link>
       </Card.Body>
     </Card>
+    </div>
   );
 };
 

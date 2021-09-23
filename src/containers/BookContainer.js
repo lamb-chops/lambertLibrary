@@ -25,8 +25,7 @@ const BookContainer = () => {
   //why need books.length to make books.map work?
   //why ...book instead of data = {book}
   return (
-    <div>
-      in book container
+    <div className="cards_container">
       {books.length > 0 && books.map((book) => <CardComponent key={books.rank} {...book}/>)}
     </div>
   );
