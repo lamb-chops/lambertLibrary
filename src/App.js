@@ -7,6 +7,7 @@ import CardComponent from "./components/CardComponent";
 import BookContainer from "./containers/BookContainer";
 
 function App() {
+  
   return (
     <div className="App">
       <NavbarComponent />
