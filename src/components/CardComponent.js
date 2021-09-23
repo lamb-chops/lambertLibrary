@@ -1,17 +1,15 @@
 import { Card, Button, ListGroupItem, ListGroup } from "react-bootstrap";
 
-const CardComponent = () => {
+const CardComponent = ({ title, description, author, book_image }) => {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="" alt="img goes here" />
+      <Card.Img variant="top" src={book_image} alt="img goes here" />
       <Card.Body>
-        <Card.Title>Book Title Test</Card.Title>
-        <Card.Text>Book description will go in card text</Card.Text>
+        <Card.Title>{title}</Card.Title>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroupItem>Book Auther</ListGroupItem>
-        <ListGroupItem>Maybe date written here?</ListGroupItem>
-        <ListGroupItem>Genre</ListGroupItem>
+        <ListGroupItem>{author}</ListGroupItem>
+        <ListGroupItem>{description}</ListGroupItem>
       </ListGroup>
       <Card.Body>
         <Card.Link href="#">Link to similar suggestions</Card.Link>
