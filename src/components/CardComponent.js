@@ -2,7 +2,7 @@ import { Card, Button, ListGroupItem, ListGroup } from "react-bootstrap";
 
 const CardComponent = ({ title, description, author, book_image }) => {
   return (
-    <div>
+    <div className="cardbody">
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={book_image} alt="img goes here" />
       <Card.Body>

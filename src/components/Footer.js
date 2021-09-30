@@ -1,10 +1,17 @@
 import React from "react";
-import './Footer.css';
 
-const Footer = () => (
+function Footer() {
+  return (
     <div className="footer">
-        <p>This is some content in sticky footer</p>
+      <footer class="py-5 bg-dark fixed-bottom">
+        <div class="container">
+          <p class="m-0 text-center text-white">
+            Copyright &copy; Your Website 2020
+          </p>
+        </div>
+      </footer>
     </div>
-);
+  );
+}
 
 export default Footer;
